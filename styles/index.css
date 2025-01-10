@@ -323,6 +323,57 @@ body{
     line-height: 25px;
 }
 .box-content .Muhammad-yunus{
-    padding-top: 1rem;
+    padding-top: 2rem;
     opacity: 0.6;
 }
+/* ended dr yunus sir quatation  */
+/* start opinion matter section  */
+.your-opinion-matter{
+   
+   
+}
+.opinion-container{
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.opinion-header{
+    font-family:"Fira Sans", serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    display:flex;
+   
+    width: 100%;
+    margin-bottom: 10px; 
+}
+.table{
+    background-color: #C6E4D6;
+}
+.table h2{
+    font-family:"Fira Sans", serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0E0E0E;
+}
+.column {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+   
+} 
+.content{
+    font-family:"Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0E0E;
+}
+
