@@ -102,7 +102,7 @@ header,main{
 }
 .banner-btn:hover{
     background-color: rgb(5, 161, 135);
-    color: #006A50;
+    color: black;
     transition: 0.4s ease;
 }
 .banner-left-side :hover .banner-btn  {
