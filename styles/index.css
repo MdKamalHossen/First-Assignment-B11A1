@@ -637,10 +637,8 @@ header,main{
    
     background-color: white;
     margin-top: 4rem;
+    padding-top: 3rem;
     width: 100%;
-}
-.footer-nav-container{
-    
 }
 
 .footer-nav-container .footer-nav-title{
