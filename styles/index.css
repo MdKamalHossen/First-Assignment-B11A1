@@ -296,9 +296,6 @@ body{
 .dr-Younus{
     margin-top: 2rem;
 }
-.dr-youns-container{
-    
-}
 .box{
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
@@ -328,10 +325,6 @@ body{
 }
 /* ended dr yunus sir quatation  */
 /* start opinion matter section  */
-.your-opinion-matter{
-   
-   
-}
 .opinion-container{
     margin-bottom: 2rem;
     margin-top: 3rem;
@@ -376,4 +369,86 @@ body{
     font-weight: 500;
     color: #0E0E0E;
 }
+/* table ended  */
+/* recent news start  */
+.recent-news{
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.recent-news-container{
+    font-family:"Fira Sans", serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #0E0E0E;
+    
+}
 
+.recent-news-container .recent-title{
+    margin-bottom: 2.3rem;
+}
+.recent-news-container .recent-paragraph{
+    font-family:"Fira Sans", serif;
+    color: #0E0E0E;
+    font-size: 16px;
+    opacity: 0.5;
+    line-height: 25px;
+}
+
+.news-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.news-card-container .aljazeera-content{
+    width: 60%;
+}
+.aljazeera-content .aljazeera-title{
+    font-family:"Fira Sans", serif;
+    color: #0E0E0E;
+    font-size: 32px;
+    padding-bottom: 22px;
+    
+}
+.news-card-container .aljazeera-img{
+    width: 40%;
+    text-align: right;
+    
+}
+.news-card-container .aljazeera-img2{
+    width: 40%;
+    text-align: left;
+    
+}
+.aljazeera-img2 img{
+    border-radius: 10px;
+}
+.news-card-container .date{
+    padding: 10px;
+    opacity: 0.5;
+}
+.news-card-container .news-paragraph{
+    font-family:"Fira Sans", serif;
+    color: #0E0E0E;
+    font-size: 16px;
+    opacity: 0.6;
+    line-height: 25px;
+    margin-bottom: 2rem;
+}
+.aljazeera-img img{
+    border-radius: 15px;
+}
+.aljazeera-content .btn-news-zeera{
+    background-color: #006A50;
+    text-decoration: none;
+    padding: 11px 20px;
+    color: #F5F5F5;
+    border-radius: 5px;
+    font-family:"Fira Sans", serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* end al jazeera news section  */
