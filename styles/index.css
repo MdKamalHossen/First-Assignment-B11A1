@@ -209,6 +209,9 @@ body{
     font-weight: 600;
     font-size: 16px;
 }
+.btn-vision-card:hover{
+    background-color:#09A15C ;
+}
 /* vision second card design  */
 .vision-card-design2{
     background-color: #C6E4D6;
@@ -250,6 +253,9 @@ body{
     font-weight: 600;
     font-size: 16px;
 }
+.btn-vision-card2:hover{
+    background-color: #FFC239;
+}
 /* second card ended  */
 /* third card maiking start  */
 .vision-card-design3{
@@ -290,6 +296,10 @@ body{
     font-family:"Fira Sans", serif;
     font-weight: 600;
     font-size: 16px;
+}
+.btn-vision-card3:hover{
+    background-color: #006A50;
+
 }
 /* ended third card  */
 /* dr.younus sir quatation start  */
@@ -451,4 +461,92 @@ body{
     font-weight: 600;
     font-size: 16px;
 }
+.btn-news-zeera:hover{
+    background-color: #3cca04;
+}
 /* end al jazeera news section  */
+.donate{
+    margin-top: 3rem;
+    
+}
+.donate-container{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.donate-container .donate-title{
+    font-family:"Fira Sans", serif;
+    color: #0E0E0E;
+    font-size: 40px;
+    padding-bottom: 2rem;
+}
+.donate-container .donate-header-content{
+    font-family:"Fira Sans", serif;
+    color: #0E0E0E;
+    font-size: 16px;
+    opacity: 0.5;
+    line-height: 25px;
+}
+.donte-amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+   
+}
+.donte-amount .donate-link{
+    display: flex;
+  
+}
+.donate-link li{
+    list-style: none;
+}
+.donate-link li a{
+    height: 128px;
+    width: 240px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 8px;
+    margin: 30px;
+    padding: 10px 20px;
+    background-color: white;
+    text-decoration: none;
+    color: #0E0E0E;
+  
+}
+.donate-link .amount-donate{
+    background-color: #006A50;
+}
+.donate-link li a:hover{
+    /* background-color: #6caf9e; */
+    background-color:#006A50;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.form-make{
+    margin-top: 4rem;
+   text-align: center;
+
+}
+#amount-input-filed{
+    padding: 1rem 18rem;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+#doneBtn{
+    background-color: #006A50;
+    text-decoration: none;
+    padding: 11px 20px;
+    color: #F5F5F5;
+    border-radius: 5px;
+    border: none;
+    font-family:"Fira Sans", serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+#doneBtn:hover{
+    background-color: #3cca04;
+}
