@@ -35,3 +35,47 @@
     border-radius: 6px; 
     padding: 1rem 2rem;
 }
+/* this is banner section start  */
+.banner{
+    width: 100rem;
+    margin: 0 auto;
+    background: #C6E4D6;
+    border-radius: 1rem;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+}
+.banner-container .banner-left-side{
+    width: 50%;
+    margin-right: 1rem;
+}
+.banner-left-side .banner-title{
+    font-family:"Fira Sans", serif;
+    font-size: 1.5rem;
+    color: #6A7972;
+    margin-bottom: 1rem;
+}
+.banner-left-side .banner-title-content{
+    font-family: "Fira Sans", serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.banner-left-side .banner-btn{
+    font-family:"Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 17px 30px;
+    margin-top: 1rem;
+    background-color: #006A50;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+
+}
+.banner-right-side{
+  
+    padding: 0;
+}
