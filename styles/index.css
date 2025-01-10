@@ -9,6 +9,11 @@
 }
 
 /* end  */
+body{
+    max-width: 100rem;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+}
 /* this is nav section  */
 .nav-container {
     width: 100rem;
@@ -35,6 +40,7 @@
     border-radius: 6px; 
     padding: 1rem 2rem;
 }
+/* ended nav section  */
 /* this is banner section start  */
 .banner{
     width: 100rem;
@@ -55,6 +61,7 @@
 .banner-left-side .banner-title{
     font-family:"Fira Sans", serif;
     font-size: 1.5rem;
+    font-weight: 500;
     color: #6A7972;
     margin-bottom: 1rem;
 }
@@ -72,10 +79,58 @@
     background-color: #006A50;
     color: #FFFFFF;
     border: none;
-    border-radius: 8px;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.banner-btn:hover{
+    background-color: rgb(5, 161, 135);
+    color: #006A50;
+    transition: 0.4s ease;
+}
+.banner-left-side :hover .banner-btn  {
+    background-color: #6caf9e;
+    
+}
+/* done / ended first banner section  */
+/* piller section start  */
+.pillar-of-BD{
+    margin-top: 3rem;
+}
+.pillar-header{
+    font-family:"Fira Sans", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.pillar-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
 
 }
-.banner-right-side{
-  
-    padding: 0;
+.pillar-card-design{
+    background-color: white;
+    padding: 20px;
+    width:18.8rem;
+    height:15.25rem;
+    border: 3px solid rgb(245, 241, 241);
+    border-radius: 1rem;
+}
+.pillar-card-design .card-icon{
+    padding-bottom: 25px;
+}
+.pillar-card-design .piller-title{
+    color: #0E0E0E;
+    font-family:"Fira Sans", serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+.pillar-card-design .piller-paragraph{
+    color: #0E0E0E;
+    font-family:"Fira Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.5;
 }
