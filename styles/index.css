@@ -14,7 +14,12 @@
 body{
     background-color:#F5F5F5 ;
 }
-header,main{
+header{
+    max-width: 100rem;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+main{
     max-width: 100rem;
     margin: 0 auto;
     /* background-color: #F5F5F5; */
@@ -24,7 +29,7 @@ header,main{
 .nav-container {
     width: 100rem;
     margin: 0 auto;
-    padding: 1.5rem 0 1.5rem 0;
+    padding: 1.5rem 0 0 0;
 }
 .nav-title{
     display: flex;
@@ -505,14 +510,14 @@ header,main{
     opacity: 0.5;
     line-height: 25px;
 }
-.donte-amount{
+.donte-amount-card{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
    
 }
-.donte-amount .donate-link{
+.donte-amount-card .donate-link{
     display: flex;
   
 }
