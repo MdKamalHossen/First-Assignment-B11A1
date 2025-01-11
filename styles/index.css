@@ -510,14 +510,14 @@ main{
     opacity: 0.5;
     line-height: 25px;
 }
-.donte-amount-card{
+.donte-amount{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
    
 }
-.donte-amount-card .donate-link{
+.donte-amount .donate-link{
     display: flex;
   
 }
